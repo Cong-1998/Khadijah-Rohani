@@ -4,6 +4,8 @@ from streamlit_player import st_player
 import re
 import pandas as pd
 from PIL import Image
+import nltk
+nltk.download('punkt')
 from readability import Readability
 
 # table of content
